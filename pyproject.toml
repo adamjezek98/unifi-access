@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unifi_access"
+version = "0.0.1"
+authors = [
+    { name = "Adam Ježek", email = "mail@ajezek.cz" },
+]
+description = "A basic library to interface UniFi Access Doors"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "websocket-client",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
